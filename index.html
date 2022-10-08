@@ -16,84 +16,78 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-        <!---->
 				<section>¿Qué es un modelo?</section>
-        <!---->
 				<section>Definición
 					<p>El acrónimo MDD enfatiza el hecho de que los modelos son el foco central de MDD.</p>
 				</section>
-        <!---->
-		<section> Tipos de modelos
-			<p>Los sistemas de software involucran varios modelos interdependientes a diferentes niveles de abstracción (análisis, diseño, implementación), representando diferen-
-				tes partes del sistema (interfaz con el usuario, base de datos, lógica del negocio, administración del sistema), diferentes requisitos (seguridad, desempeño, flexibilidad), o diferentes tareas (modelos de pruebas, mo-
-				delos de emplazamiento).</p>
-		</section>
-
-		<section>Modelos a lo largo del proceso de desarrollo
-			<section>
-				<img src="https://microtess.com/images/imagen1.png" />
-			</section>	
-		</section>
-
-		<section>
-			<h3>Modelos abstractos y modelos detallados </h3>	
-			<p>La clasificación entre modelo abstracto y modelo detallado también posee cierto grado de subjetividad. En general las herramientas de modelado nos permiten visualizar a un mismo modelo en distintos niveles de detalle [Egyed 02].</p>
-		</section>
-
-		<section>
-			<h3>
-				Modelos de negocio y modelos de software
-			</h3>	
-			<p>Un modelo del negocio describe a un negocio o empresa (o parte de ellos). El lenguaje que se utiliza para construir el modelo del negocio contiene un vocabulario que permite al modelador especificar los procesos del negocio, los clientes, los departamentos, las dependencias entre procesos, etc.</p>
-		</section>
-
-		<section>
-			<h3>Modelos estáticos (o estructurales) y modelos dinámicos (o de comportamiento)</h3>
-			<p>La mayoría de los sistemas poseen una base estructural estática, definida por el conjunto de objetos que constituyen el sistema, con sus propiedades y sus conexiones.</p>
-		</section>
-
-		<section>
-			<h3>Modelos independientes de la plataforma y modelos específicos de la plataforma</h3>
-			<p>Algunos modelos describen al sistema de manera independiente de los conceptos técnicos que involucra su implementación sobre una plataforma de software, mientras que otros modelos tienen como finalidad primaria describir tales conceptos técnicos.</p>
-		</section>
-
-		<section>
-				<section>
-					<h3>El modelo independiente de la computación CIM</h3>
-					<p>Un CIM es una vista del sistema desde un punto de vista independiente de la computación. Un CIM no muestra detalles de la estructura del sistema. Usualmente al CIM se lo llama modelo del dominio y en su construcción se utiliza un vocabulario que resulta familiar para los expertos en el dominio en cuestión.</p>
+				<section> Tipos de modelos
+					<p>Los sistemas de software involucran varios modelos interdependientes a diferentes niveles de abstracción (análisis, diseño, implementación), representando diferen-
+						tes partes del sistema (interfaz con el usuario, base de datos, lógica del negocio, administración del sistema), diferentes requisitos (seguridad, desempeño, flexibilidad), o diferentes tareas (modelos de pruebas, mo-
+						delos de emplazamiento).</p>
 				</section>
-				<section>
-					<h3>El modelo independiente de la plataforma (PIM)</h3>
-					<p>Un PIM es un modelo con un altonivel de abstracción que es independiente de cualquier tecnología o lenguaje de implementación. Dentro del PIM el sistema se modela desde el punto de vista de cómo se soporta mejor al negocio, sin tener en cuenta como va a ser implementado: ignora los sistemas operativos, los lenguajes de programación, el hardware, la topología de red, etc.</p>
-				</section>
-				<section>
-					<h3>El modelo específico de la plataforma (PSM)</h3>
-					<p>Como siguiente paso, un PIM se transforma en uno o más PSMs (Platform Specific Models). Cada PSM representa la proyección del PIM en una plataforma específica. Un PIM puede generar múltiples PSMs, cada uno para una tecnología en particular. Generalmente, los PSMs deben colaborar entre sí para una solución completa y consistente.</p>
-				</section>
-				<section>
-					<h3>El modelo de la implementación (Código).</h3>
-					<p>El paso final en el desarrollo es la transformación de cada PSM a código fuente. Ya que el PSM está orientado al dominio tecnológico específico, esta transformación es bastante directa.</p>
-				</section>
-			
-		</section>
 
-        <section>
-			<h3>Cualidades de los modelos</h3>
-		</section>
-        
-		<section>Modelos estáticos (o estructurales) y modelos dinámicos (o de comportamiento)
-			<p>El modelo de un problema es esencial para describir y entender el problema, independientemente de cualquier posible sistema informático que
-				se use para su automatización. El modelo constituye la base fundamental de información sobre la que interactúan los expertos en el dominio
-				del problema y los desarrolladores de software.</p>
-		</section>
+				<section>Modelos a lo largo del proceso de desarrollo
+					<section>
+						<img src="https://microtess.com/images/imagen1.png" />
+					</section>	
+				</section>
 
-		<section>Cualidades de los modelos 
-			<section>
-				<img src="https://microtess.com/images/imagen2.png" /> 
-			</section>	
-		</section>
+				<section>
+					<h3>Modelos abstractos y modelos detallados </h3>	
+					<p>La clasificación entre modelo abstracto y modelo detallado también posee cierto grado de subjetividad. En general las herramientas de modelado nos permiten visualizar a un mismo modelo en distintos niveles de detalle [Egyed 02].</p>
+				</section>
 
-        </section>
+				<section>
+					<h3>
+						Modelos de negocio y modelos de software
+					</h3>	
+					<p>Un modelo del negocio describe a un negocio o empresa (o parte de ellos). El lenguaje que se utiliza para construir el modelo del negocio contiene un vocabulario que permite al modelador especificar los procesos del negocio, los clientes, los departamentos, las dependencias entre procesos, etc.</p>
+				</section>
+
+				<section>
+					<h3>Modelos estáticos (o estructurales) y modelos dinámicos (o de comportamiento)</h3>
+					<p>La mayoría de los sistemas poseen una base estructural estática, definida por el conjunto de objetos que constituyen el sistema, con sus propiedades y sus conexiones.</p>
+				</section>
+
+				<section>
+					<h3>Modelos independientes de la plataforma y modelos específicos de la plataforma</h3>
+					<p>Algunos modelos describen al sistema de manera independiente de los conceptos técnicos que involucra su implementación sobre una plataforma de software, mientras que otros modelos tienen como finalidad primaria describir tales conceptos técnicos.</p>
+				</section>
+
+				<section>
+						<section>
+							<h3>El modelo independiente de la computación CIM</h3>
+							<p>Un CIM es una vista del sistema desde un punto de vista independiente de la computación. Un CIM no muestra detalles de la estructura del sistema. Usualmente al CIM se lo llama modelo del dominio y en su construcción se utiliza un vocabulario que resulta familiar para los expertos en el dominio en cuestión.</p>
+						</section>
+						<section>
+							<h3>El modelo independiente de la plataforma (PIM)</h3>
+							<p>Un PIM es un modelo con un altonivel de abstracción que es independiente de cualquier tecnología o lenguaje de implementación. Dentro del PIM el sistema se modela desde el punto de vista de cómo se soporta mejor al negocio, sin tener en cuenta como va a ser implementado: ignora los sistemas operativos, los lenguajes de programación, el hardware, la topología de red, etc.</p>
+						</section>
+						<section>
+							<h3>El modelo específico de la plataforma (PSM)</h3>
+							<p>Como siguiente paso, un PIM se transforma en uno o más PSMs (Platform Specific Models). Cada PSM representa la proyección del PIM en una plataforma específica. Un PIM puede generar múltiples PSMs, cada uno para una tecnología en particular. Generalmente, los PSMs deben colaborar entre sí para una solución completa y consistente.</p>
+						</section>
+						<section>
+							<h3>El modelo de la implementación (Código).</h3>
+							<p>El paso final en el desarrollo es la transformación de cada PSM a código fuente. Ya que el PSM está orientado al dominio tecnológico específico, esta transformación es bastante directa.</p>
+						</section>
+				</section>
+
+				<section>
+					<h3>Cualidades de los modelos</h3>
+				</section>
+				
+				<section>Modelos estáticos (o estructurales) y modelos dinámicos (o de comportamiento)
+					<p>El modelo de un problema es esencial para describir y entender el problema, independientemente de cualquier posible sistema informático que
+						se use para su automatización. El modelo constituye la base fundamental de información sobre la que interactúan los expertos en el dominio
+						del problema y los desarrolladores de software.</p>
+				</section>
+
+				<section>Cualidades de los modelos 
+					<section>
+						<img src="https://microtess.com/images/imagen2.png" /> 
+					</section>	
+				</section>				
 			</div>
 		</div>
 
